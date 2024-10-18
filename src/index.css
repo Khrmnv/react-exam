@@ -1,0 +1,44 @@
+
+.breadcrumb-light {
+color: black; 
+}
+
+.breadcrumb-dark {
+color: white; 
+}
+
+.demo-logo {
+height: 32px;
+background: rgba(255, 255, 255, 0.2);
+margin-right: 16px;
+}
+
+.ant-layout {
+min-height: 100vh;
+}
+
+@media (max-width: 1200px) {
+.ant-layout-sider {
+    display: none; 
+}
+.ant-layout-header {
+    flex-direction: column; 
+}
+.ant-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+}
+
+@media (max-width: 768px) {
+.ant-layout-header {
+    padding: 0 16px; 
+}
+.ant-breadcrumb {
+    font-size: 14px; 
+}
+.ant-btn {
+    font-size: 14px; 
+}
+}
